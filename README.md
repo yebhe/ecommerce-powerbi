@@ -15,6 +15,7 @@ Chiffre d'affaires · Profit · Panier moyen · Clients · Produits · Paiements
 [![Télécharger le .pbix](https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20le%20.pbix-0F7B84?style=for-the-badge&logo=powerbi&logoColor=white)](https://github.com/yebhe/ecommerce-powerbi/raw/refs/heads/main/yebhe_financial_last.pbix)
 [![Données](https://img.shields.io/badge/Donn%C3%A9es-0F7B84?style=for-the-badge&logo=files&logoColor=white)](data/)
 [![Mesures DAX](https://img.shields.io/badge/Mesures%20DAX-0F7B84?style=for-the-badge&logo=readthedocs&logoColor=white)](measures/mesures_dax.md)
+[![Requêtes SQL](https://img.shields.io/badge/Requ%C3%AAtes%20SQL-0F7B84?style=for-the-badge&logo=postgresql&logoColor=white)](sql/)
 [![Galerie](https://img.shields.io/badge/Galerie-0F7B84?style=for-the-badge&logo=googlephotos&logoColor=white)](docs/README.md)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yebhe/)
 
@@ -210,6 +211,7 @@ Contrôles réalisés en lecture seule sur le fichier source et le modèle charg
 | **Qualité des données** | Contrôles de clés, de complétude et de cohérence, limites documentées |
 | **Visualisation** | Dashboard piloté par paramètre de champ + 4 pages thématiques, navigation par onglets |
 | **Qualité du modèle** | Table de mesures dédiée, dossiers d'affichage, clés techniques masquées |
+| **SQL** | Indicateurs du rapport reproduits en SQL : agrégats, `LAG` (N-1), `RANK`, rétention/churn par auto-jointure, contrôles qualité |
 | **Documentation** | README, schéma du modèle, limites chiffrées |
 
 ---
