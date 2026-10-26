@@ -260,8 +260,11 @@ ecom_p1_last/
 ├── docs/
 │   ├── README.md
 │   └── *.png                     ← captures du rapport et du modèle
-└── measures/
-    └── mesures_dax.md            ← mesures DAX documentées
+├── measures/
+│   └── mesures_dax.md            ← mesures DAX documentées
+└── sql/
+    ├── README.md                 ← prérequis et dialecte
+    └── *.sql                     ← les mêmes indicateurs en SQL
 ```
 
 ---
